@@ -1,0 +1,42 @@
+.home-container {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.381);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.buttons .btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.buttons .btn:hover {
+  background-color:#ED3500;
+}
